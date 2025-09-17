@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.programmingtechie.azinbridgeapi.AzinBridgeApiApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-09-17T13:24:04.024Z" hostname="AZIN-PROG" time="0.621">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.programmingtechie.azinbridgeapi.AzinBridgeApiApplicationTests" time="0.621"/>
+  <system-out><![CDATA[17:23:54.385 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.programmingtechie.azinbridgeapi.AzinBridgeApiApplicationTests]: AzinBridgeApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:23:54.500 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.programmingtechie.azinbridgeapi.AzinBridgeApiApplication for test class com.programmingtechie.azinbridgeapi.AzinBridgeApiApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.5)
+
+2025-09-17T17:23:55.041+04:00  INFO 3268 --- [    Test worker] c.p.a.AzinBridgeApiApplicationTests      : Starting AzinBridgeApiApplicationTests using Java 22.0.1 with PID 3268 (started by Admin in D:\AzinBridge-Api)
+2025-09-17T17:23:55.043+04:00  INFO 3268 --- [    Test worker] c.p.a.AzinBridgeApiApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-09-17T17:23:56.436+04:00  INFO 3268 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-17T17:23:56.547+04:00  INFO 3268 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 5 JPA repository interfaces.
+2025-09-17T17:23:57.749+04:00  INFO 3268 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-17T17:23:57.959+04:00  INFO 3268 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5238896f
+2025-09-17T17:23:57.963+04:00  INFO 3268 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-17T17:23:58.026+04:00  INFO 3268 --- [    Test worker] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/bridge (PostgreSQL 17.4)
+2025-09-17T17:23:58.129+04:00  INFO 3268 --- [    Test worker] o.f.core.internal.command.DbValidate     : Successfully validated 7 migrations (execution time 00:00.061s)
+2025-09-17T17:23:58.154+04:00  INFO 3268 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 8
+2025-09-17T17:23:58.157+04:00  INFO 3268 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2025-09-17T17:23:58.352+04:00  INFO 3268 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-17T17:23:58.469+04:00  INFO 3268 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-17T17:23:58.555+04:00  INFO 3268 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-17T17:23:59.184+04:00  INFO 3268 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-17T17:23:59.305+04:00  WARN 3268 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-17T17:23:59.335+04:00  INFO 3268 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-17T17:24:01.293+04:00  INFO 3268 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-17T17:24:01.385+04:00  INFO 3268 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-17T17:24:03.118+04:00  WARN 3268 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-17T17:24:03.994+04:00  INFO 3268 --- [    Test worker] c.p.a.AzinBridgeApiApplicationTests      : Started AzinBridgeApiApplicationTests in 9.32 seconds (process running for 10.497)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.17.7\fbf3d6d649ed37fc9e9c59480a05be0a26e3c2da\byte-buddy-agent-1.17.7.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
